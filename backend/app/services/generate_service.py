@@ -1,6 +1,6 @@
 import json
+import random
 from pathlib import Path
-
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE_DIR / "data" / "legal_docs.json"
@@ -14,7 +14,6 @@ except FileNotFoundError:
 
 
 def search_documents(query: str):
-
     query_lower = query.lower()
     results = []
 
@@ -28,11 +27,18 @@ def search_documents(query: str):
     return results
 
 
-
 def generate_summary(matched_docs):
+    if not LEGAL_DOCS:
+        return "No legal documents available."
 
     if not matched_docs:
-        return "No relevant legal documents found."
+        # Return a random document if no match found
+        random_doc = random.choice(LEGAL_DOCS)
+        return (
+            f"No exact match found. Here's a random legal document instead:\n"
+            f"Title: {random_doc.get('title', 'Untitled')}\n"
+            f"Summary: {random_doc.get('content', 'No content available.')}"
+        )
 
     num_docs = len(matched_docs)
     titles = [doc.get("title", "Untitled") for doc in matched_docs]
