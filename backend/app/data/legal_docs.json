@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial Intelligence Ethics Act",
+    "content": "Establishes guidelines for ethical AI development and deployment. Ensures transparency, accountability, and fairness in automated decision-making systems."
+  },
+  {
+    "id": 2,
+    "title": "Digital Identity Protection Law",
+    "content": "Provides safeguards for personal digital identities. Regulates identity verification, storage, and prevention of unauthorized data usage."
+  },
+  {
+    "id": 3,
+    "title": "Remote Work Regulation Act",
+    "content": "Defines labor standards for remote and hybrid employees. Covers work hours, cybersecurity requirements, and employer responsibilities."
+  },
+  {
+    "id": 4,
+    "title": "Blockchain Compliance Framework",
+    "content": "Introduces rules for blockchain-based transactions. Ensures transparency, anti-fraud measures, and legal recognition of smart contracts."
+  },
+  {
+    "id": 5,
+    "title": "Digital Accessibility Act",
+    "content": "Requires digital platforms and applications to be accessible for all users, including individuals with disabilities, following global accessibility standards."
+  },
+  {
+    "id": 6,
+    "title": "Online Misinformation Control Act",
+    "content": "Establishes mechanisms to detect, flag, and prevent the spread of false or misleading information across online platforms."
+  },
+  {
+    "id": 7,
+    "title": "Data Localization and Sovereignty Law",
+    "content": "Mandates that sensitive user data be stored and processed within national boundaries to ensure privacy and national security."
+  },
+  {
+    "id": 8,
+    "title": "Green Technology Regulation",
+    "content": "Encourages the development and use of eco-friendly technologies. Offers incentives for companies reducing carbon emissions through innovation."
+  },
+  {
+    "id": 9,
+    "title": "Digital Advertising Standards Act",
+    "content": "Regulates online advertising practices to prevent manipulation, protect consumer rights, and ensure transparency in digital marketing."
+  },
+  {
+    "id": 10,
+    "title": "Cybercrime Prevention and Enforcement Law",
+    "content": "Defines offenses related to hacking, phishing, and data theft. Provides law enforcement agencies with protocols for cyber investigation and prosecution."
+  }
+]
