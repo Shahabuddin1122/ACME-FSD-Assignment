@@ -88,7 +88,7 @@ Example Response
 }
 ```
 
-Frontend Setup (React / Next.js)
+## Frontend Setup (React)
 
 1. Clone the Repository
 
